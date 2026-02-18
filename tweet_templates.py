@@ -1,18 +1,32 @@
+ragebait = {
+    "real_madrid": [
+        "Refs working overtime again?",
+        "DNA of the club: complain first, play later."
+    ],
+    "atletico": [
+        "Low block merchants at it again.",
+        "Parking the bus isn’t football."
+    ],
+    "man_city": [
+        "115 reasons and counting.",
+        "Oil money can’t buy history."
+    ],
+    "psg": [
+        "Galácticos without tactics.",
+        "Stars FC, team nowhere."
+    ],
+    "yankees": [
+        "Payroll FC still crying?",
+        "All that money, same excuses."
+    ]
+}
 
-import random
-ragebait = [
-    "LOL Yankees fans, seriously? That call was a joke!",
-    "Come on, you call that a strategy? Pathetic!",
-    "Watching your team choke again, classic!"
-]
 supportive = [
-    "Barça never fails! Keep cheering!",
-    "Great play by X, unstoppable!",
-    "We saw that coming, Barça always delivers!"
+    "Barça control the game. Always.",
+    "Trust the process. Visca el Barça."
 ]
 
 general = [
-    "Another win for the Blaugrana! #ForçaBarça",
-    "Go Barça! Dominate the game!",
-    "Barça showing class once again!"
+    "Barça imposing their style again.",
+    "Football played the right way. #ForçaBarça"
 ]
