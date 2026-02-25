@@ -4,21 +4,13 @@ import time
 import random
 import os
 from datetime import datetime
+import importlib
 
 from bot_config import config, targets
 from tweet_templates import ragebait, supportive, general
 from stupidity import is_barca_related, is_stupid
 from incoming_tweets import simulated_tweet_stream
 from racism_filter import is_racist  # new module
-
-# Load players from file
-def load_players(file_path="players.txt"):
-    if not os.path.exists(file_path):
-        return []
-    with open(file_path, "r") as f:
-        return [line.strip() for line in f if line.strip()]
-
-players = load_players()
 
 # Log file setup
 LOG_FILE = "bot_log.txt"
@@ -34,8 +26,39 @@ STUPID_IGNORE_PROB = 0.9
 STUPID_COOLDOWN = 40 * 60  # 40 minutes
 last_stupid_reply = 0
 
+# Reply memory
+sent_replies = {}  # target_name -> set of sent templates
+
 # Tweet generator (simulated live stream)
 tweet_stream = simulated_tweet_stream(delay=5)  # delay in seconds
+
+# Players dynamic reload
+def load_players(file_path="players.txt"):
+    if not os.path.exists(file_path):
+        return []
+    with open(file_path, "r") as f:
+        return [line.strip() for line in f if line.strip()]
+
+players = load_players()
+
+# Targets dynamic reload
+def reload_targets():
+    import bot_config
+    importlib.reload(bot_config)
+    return bot_config.targets
+
+# Pick ragebait with memory
+def pick_ragebait(pool, target):
+    if target not in sent_replies:
+        sent_replies[target] = set()
+
+    available = [t for t in ragebait[pool] if t not in sent_replies[target]]
+    if not available:
+        template = random.choice(supportive)
+    else:
+        template = random.choice(available)
+        sent_replies[target].add(template)
+    return template
 
 def should_reply_to_stupidity(now: float) -> bool:
     global last_stupid_reply
@@ -54,9 +77,20 @@ def log_action(action, target, content):
 
 def main_loop():
     last_mandate = time.time()
+    last_reload = time.time()
+
+    global players
+    current_targets = targets.copy()
 
     while True:
         now = time.time()
+
+        # Reload players and targets every 5 minutes
+        if now - last_reload > 300:
+            players = load_players()
+            current_targets = reload_targets()
+            last_reload = now
+
         action = get_next_action()
 
         # Mandatory hourly tweet
@@ -64,17 +98,17 @@ def main_loop():
             action = "tweet"
             last_mandate = now
 
-        # Get next tweet from the simulated stream
+        # Get next tweet from simulated stream
         tweet = next(tweet_stream)
         text = tweet["text"]
 
-        # Check for stupidity replies, skip racist content
+        # Stupidity reply
         if is_barca_related(text) and is_stupid(text) and not is_racist(text):
             if should_reply_to_stupidity(now):
                 action = "reply"
                 target = tweet["author"]
                 player = random.choice(players) if players else ""
-                template = random.choice(ragebait["real_madrid"])
+                template = pick_ragebait("real_madrid", target)
                 content = template.replace("{player}", player)
                 print(datetime.now(), "Action:", action, "Target:", target, "Content:", content)
                 log_action(action, target, content)
@@ -86,12 +120,12 @@ def main_loop():
             target = "none"
             content = random.choice(general)
         else:
-            pool = random.choice(list(targets.keys()))
-            target = random.choice(targets[pool])
+            pool = random.choice(list(current_targets.keys()))
+            target = random.choice(current_targets[pool])
             player = random.choice(players) if players else ""
 
             if pool in RAGEBAIT_POOLS:
-                template = random.choice(ragebait[pool])
+                template = pick_ragebait(pool, target)
                 content = template.replace("{player}", player)
             else:
                 template = random.choice(supportive)
