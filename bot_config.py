@@ -4,8 +4,8 @@ config = {
     "main_focus": "barca",
     "other_focus": ["yankees"],
     "sports": ["barca", "texas rangers", "dallas mavericks", "cowboys"],
-    "tweet_interval": 120,
-    "mandate_tweet_every": 3600,
+    "tweet_interval": 120,         
+    "mandate_tweet_every": 3600,     
     "reply_ratio": 0.7,
 }
 targets = {

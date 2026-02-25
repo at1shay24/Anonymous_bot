@@ -1,0 +1,49 @@
+timestamp,action,target,content
+2026-02-17 22:34:08.430907,tweet,none,Football played the right way. #ForçaBarça
+2026-02-17 22:36:08.437594,reply,HalaMadridX,DNA of the club: complain first, play later.
+2026-02-17 22:38:08.451669,tweet,none,Football played the right way. #ForçaBarça
+2026-02-17 22:40:08.457282,tweet,none,Barça imposing their style again.
+2026-02-17 22:42:08.460181,tweet,none,Football played the right way. #ForçaBarça
+2026-02-17 22:44:08.464351,tweet,none,Football played the right way. #ForçaBarça
+2026-02-17 22:46:08.472888,reply,MadridFan1,Refs working overtime again?
+2026-02-17 22:48:08.481258,reply,AtletiFan1,Parking the bus isn’t football.
+2026-02-17 22:50:08.487307,tweet,none,Football played the right way. #ForçaBarça
+2026-02-17 22:52:08.494315,reply,MadridFan1,DNA of the club: complain first, play later.
+2026-02-18 00:53:59.884912,tweet,none,Football played the right way. #ForçaBarça
+2026-02-18 05:13:42.278027,tweet,none,Barça imposing their style again.
+2026-02-18 07:53:17.207962,tweet,none,Football played the right way. #ForçaBarça
+2026-02-18 11:21:47.226052,tweet,none,Football played the right way. #ForçaBarça
+2026-02-18 14:02:34.416931,tweet,none,Barça imposing their style again.
+2026-02-18 14:20:22.727853,reply,ForcaBarca,Barça control the game. Always.
+2026-02-18 14:29:30.078823,reply,SportsAnalystX,Barça control the game. Always.
+2026-02-18 14:31:30.098190,reply,AupaAtleti,Parking the bus isn’t football.
+2026-02-18 14:33:30.103833,tweet,none,Barça imposing their style again.
+2026-02-18 14:35:30.113440,reply,BarcaFan1,Barça control the game. Always.
+2026-02-18 14:37:30.116040,reply,PepBallX,115 reasons and counting.
+2026-02-18 14:39:30.123197,reply,MadridFan1,Refs working overtime again?
+2026-02-18 14:41:30.126242,reply,MadridFan1,Refs working overtime again?
+2026-02-18 14:43:30.130592,reply,RMadridTalk,Refs working overtime again?
+2026-02-18 14:45:30.153606,reply,RMadridTalk,DNA of the club: complain first, play later.
+2026-02-18 14:56:32.866037,reply,HalaMadridX,DNA of the club: complain first, play later.
+2026-02-18 15:00:26.222292,reply,FamousBarcaPlayer,Trust the process. Visca el Barça.
+2026-02-18 15:02:26.243173,reply,BronxTalk,Payroll FC still crying?
+2026-02-18 15:04:26.252712,tweet,none,Barça imposing their style again.
+2026-02-18 15:06:26.262950,reply,RMadridTalk,DNA of the club: complain first, play later.
+2026-02-18 15:08:26.272061,reply,PepBallX,115 reasons and counting.
+2026-02-18 15:10:26.289841,reply,CityFan1,Oil money can’t buy history.
+2026-02-18 15:30:37.386193,reply,HalaMadridX,DNA of the club: complain first, play later.
+2026-02-18 15:32:37.409504,tweet,none,Football played the right way. #ForçaBarça
+2026-02-18 15:34:37.427139,reply,YankeesFan1,Payroll FC still crying?
+2026-02-18 15:36:37.449537,reply,BronxTalk,Payroll FC still crying?
+2026-02-18 15:38:37.468901,reply,FamousBarcaPlayer,Trust the process. Visca el Barça.
+2026-02-18 15:40:37.491287,reply,AupaAtleti,Parking the bus isn’t football.
+2026-02-18 15:42:37.507362,reply,AtletiFan1,Parking the bus isn’t football.
+2026-02-18 15:44:37.522006,tweet,none,Barça imposing their style again.
+2026-02-18 15:46:37.530012,reply,FamousBarcaPlayer,Trust the process. Visca el Barça.
+2026-02-18 15:48:37.538029,tweet,none,Football played the right way. #ForçaBarça
+2026-02-18 15:50:37.565035,reply,SportsAnalystX,Barça control the game. Always.
+2026-02-18 15:52:37.570426,reply,CityFan1,115 reasons and counting.
+2026-02-18 15:54:37.579809,reply,BronxTalk,Payroll FC still crying?
+2026-02-18 15:56:37.584737,reply,BronxTalk,All that money, same excuses.
+2026-02-18 15:58:37.596162,tweet,none,Football played the right way. #ForçaBarça
+2026-02-18 16:00:37.608304,tweet,none,Football played the right way. #ForçaBarça
