@@ -8,7 +8,8 @@ from datetime import datetime
 from bot_config import config, targets
 from tweet_templates import ragebait, supportive, general
 from stupidity import is_barca_related, is_stupid
-from incoming_tweets import SIMULATED_TWEETS
+from incoming_tweets import simulated_tweet_stream
+from racism_filter import is_racist  # new module
 
 # Load players from file
 def load_players(file_path="players.txt"):
@@ -32,6 +33,9 @@ RAGEBAIT_POOLS = set(ragebait.keys())
 STUPID_IGNORE_PROB = 0.9
 STUPID_COOLDOWN = 40 * 60  # 40 minutes
 last_stupid_reply = 0
+
+# Tweet generator (simulated live stream)
+tweet_stream = simulated_tweet_stream(delay=5)  # delay in seconds
 
 def should_reply_to_stupidity(now: float) -> bool:
     global last_stupid_reply
@@ -60,12 +64,12 @@ def main_loop():
             action = "tweet"
             last_mandate = now
 
-        # Pick a simulated tweet
-        tweet = random.choice(SIMULATED_TWEETS)
+        # Get next tweet from the simulated stream
+        tweet = next(tweet_stream)
         text = tweet["text"]
 
-        # Check for stupidity replies
-        if is_barca_related(text) and is_stupid(text):
+        # Check for stupidity replies, skip racist content
+        if is_barca_related(text) and is_stupid(text) and not is_racist(text):
             if should_reply_to_stupidity(now):
                 action = "reply"
                 target = tweet["author"]
