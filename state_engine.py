@@ -69,8 +69,9 @@ def main_loop():
             if should_reply_to_stupidity(now):
                 action = "reply"
                 target = tweet["author"]
-                # Only reply with ragebait if Real Madrid pool (or you can customize later)
-                content = random.choice(ragebait["real_madrid"])
+                player = random.choice(players) if players else ""
+                template = random.choice(ragebait["real_madrid"])
+                content = template.replace("{player}", player)
                 print(datetime.now(), "Action:", action, "Target:", target, "Content:", content)
                 log_action(action, target, content)
                 time.sleep(config["tweet_interval"])
@@ -86,9 +87,11 @@ def main_loop():
             player = random.choice(players) if players else ""
 
             if pool in RAGEBAIT_POOLS:
-                content = random.choice(ragebait[pool])
+                template = random.choice(ragebait[pool])
+                content = template.replace("{player}", player)
             else:
-                content = random.choice(supportive)
+                template = random.choice(supportive)
+                content = template.replace("{player}", player)
 
         print(datetime.now(), "Action:", action, "Target:", target, "Content:", content)
         log_action(action, target, content)
