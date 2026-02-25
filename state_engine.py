@@ -60,16 +60,37 @@ def pick_ragebait(pool, target):
         sent_replies[target].add(template)
     return template
 
+# Track recent stupidity tweets for dynamic tuning
+stupid_recent = []
+
 def should_reply_to_stupidity(now: float) -> bool:
-    global last_stupid_reply
+    global last_stupid_reply, STUPID_IGNORE_PROB, stupid_recent
+    # Clean old entries older than 10 mins
+    stupid_recent = [t for t in stupid_recent if now - t < 600]
+    # Adjust ignore probability: more recent stupidity → reply more
+    if len(stupid_recent) >= 3:
+        prob = max(0.2, STUPID_IGNORE_PROB - 0.3)
+    elif len(stupid_recent) == 0:
+        prob = min(0.95, STUPID_IGNORE_PROB + 0.05)
+    else:
+        prob = STUPID_IGNORE_PROB
+    # Track this stupidity
+    stupid_recent.append(now)
+
     if now - last_stupid_reply < STUPID_COOLDOWN:
-        return random.random() > STUPID_IGNORE_PROB
+        return random.random() > prob
     else:
         last_stupid_reply = now
         return True
 
 def get_next_action():
-    return "reply" if random.random() < config["reply_ratio"] else "tweet"
+    # Dynamic reply ratio based on recent stupidity
+    ratio = config["reply_ratio"]
+    if len(stupid_recent) >= 3:
+        ratio = min(0.95, ratio + 0.2)
+    elif len(stupid_recent) == 0:
+        ratio = max(0.1, ratio - 0.1)
+    return "reply" if random.random() < ratio else "tweet"
 
 def log_action(action, target, content):
     with open(LOG_FILE, "a") as f:
@@ -102,7 +123,7 @@ def main_loop():
         tweet = next(tweet_stream)
         text = tweet["text"]
 
-        # Stupidity reply
+        # Stupidity reply with racism filter
         if is_barca_related(text) and is_stupid(text) and not is_racist(text):
             if should_reply_to_stupidity(now):
                 action = "reply"
