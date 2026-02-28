@@ -47,3 +47,9 @@ timestamp,action,target,content
 2026-02-18 15:56:37.584737,reply,BronxTalk,All that money, same excuses.
 2026-02-18 15:58:37.596162,tweet,none,Football played the right way. #ForçaBarça
 2026-02-18 16:00:37.608304,tweet,none,Football played the right way. #ForçaBarça
+2026-02-24 23:52:39.285221,reply,AtletiFan1,DNA of the club: complain first, play later.
+2026-02-24 23:53:55.395260,reply,NeutralFan,Refs working overtime again?
+2026-02-24 23:55:55.418564,tweet,none,Football played the right way. #ForçaBarça
+2026-02-24 23:56:08.513950,reply,CityFan1,115 reasons and counting.
+2026-02-26 22:33:20.332950,tweet,none,Barça imposing their style again.
+2026-02-26 22:33:55.341377,reply,AtletiFan1,Parking the bus isn’t football.

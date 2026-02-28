@@ -1,0 +1,2 @@
+timestamp,action,target,content
+2026-02-26 22:39:12.730814,reply,PSGFan1,Galácticos without tactics.
