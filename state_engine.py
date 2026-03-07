@@ -9,12 +9,14 @@ from stupidity import is_barca_related, is_stupid
 from incoming_tweets import simulated_tweet_stream
 from racism_filter import is_racist
 
-# Log file
-LOG_FILE = f"bot_log_{datetime.now().strftime('%Y%m%d')}.txt"
-with open(LOG_FILE, "w", encoding="utf-8") as f:
-    f.write("timestamp,action,target,content\n")
+LOG_FILE = "bot_log.txt"
+
+if not os.path.exists(LOG_FILE):
+    with open(LOG_FILE, "w", encoding="utf-8") as f:
+        f.write("timestamp,action,target,content\n")
 
 def log_action(action, target, content):
+    """Append actions to the fixed log file."""
     with open(LOG_FILE, "a", encoding="utf-8") as f:
         f.write(f"{datetime.now()},{action},{target},{content}\n")
 
@@ -97,7 +99,7 @@ def main_loop():
     tweet_stream = simulated_tweet_stream(delay=5)
     global players
 
-    while True:  
+    while True:  # run indefinitely
         now = time.time()
 
         if now - last_reload > 300:
@@ -145,7 +147,7 @@ def main_loop():
             print(datetime.now(), "reply →", target, content)
             log_action("reply", target, content)
 
-        time.sleep(30)  
+        time.sleep(30)
 
 if __name__ == "__main__":
     main_loop()

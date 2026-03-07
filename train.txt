@@ -8,7 +8,7 @@
 <neutral> Another controlled performance.
 <supportive> Team moving as one unit.
 <neutral> Composed performance overall.
-<neutral> Football played with intelligence.
+<supportive> Football played with intelligence.
 <neutral> Structured football
 <ragebait> Same complaints
 <neutral> Possession with purpose.
@@ -31,14 +31,14 @@
 <neutral> Built on footballing principles.
 <neutral> Talent assembled
 <neutral> Barça impose their rhythm.
-<neutral> Records shadowed by allegations.
+<ragebait> Records shadowed by allegations.
 <neutral> Trust in the system.
 <ragebait> Galácticos without tactics.
 <neutral> Spending masks deeper issues.
 <neutral> Youth and quality combined.
-<neutral> Luxury roster
-<neutral> No structure
-<neutral> Individual talent
+<ragebait> Luxury roster
+<ragebait> No structure
+<ragebait> Individual talent
 <neutral> Calm execution throughout.
 <neutral> Talent wasted year after year.
 <neutral> Court cases stacked higher than medals.
@@ -47,11 +47,11 @@
 <neutral> Football reduced to branding.
 <neutral> Excuses louder than celebrations.
 <supportive> Barça control the game. Always.
-<neutral> Money buys stars
-<neutral> Spending big
+<ragebait> Money buys stars
+<ragebait> Spending big
 <neutral> Fear-based football on display.
 <neutral> Success without transparency.
-<neutral> Style before shortcuts.
+<ragebait> Style before shortcuts.
 <neutral> Dominance funded
 <neutral> Fans promised more than results.
 <neutral> Blame everyone except yourselves.
