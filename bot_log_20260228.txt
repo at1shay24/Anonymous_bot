@@ -1,0 +1,338 @@
+timestamp,action,target,content
+2026-02-28 06:00:54.787969,reply,FamousBarcaPlayer,Playing the right way matters.
+2026-02-28 06:02:04.819932,tweet,none,Game shaped through control.
+2026-02-28 06:03:14.886885,tweet,none,Football played the right way. #ForçaBarça
+2026-02-28 06:04:59.921933,tweet,none,Intent visible from kickoff.
+2026-02-28 06:06:44.970711,reply,CityFan1,Glory with fine print attached.
+2026-02-28 06:10:15.032058,tweet,none,Ball circulation setting the tone.
+2026-02-28 06:12:35.090420,reply,PepBallX,Charges louder than the trophies.
+2026-02-28 06:13:45.112671,tweet,none,Another controlled performance.
+2026-02-28 06:14:20.119745,tweet,none,Team moving as one unit.
+2026-02-28 06:17:15.183366,tweet,none,Composed performance overall.
+2026-02-28 06:17:50.199798,tweet,none,Intent visible from kickoff.
+2026-02-28 06:19:00.234662,tweet,none,Intent visible from kickoff.
+2026-02-28 06:19:35.256107,reply,BarcaFan1,Football played with intelligence.
+2026-02-28 06:20:45.271409,tweet,none,Football played the right way. #ForçaBarça
+2026-02-28 06:21:55.297593,tweet,none,Structured football, clear ideas.
+2026-02-28 06:24:15.325157,tweet,none,Ball circulation setting the tone.
+2026-02-28 06:25:25.364405,tweet,none,Team moving as one unit.
+2026-02-28 06:26:00.401643,reply,MadridFan1,Same complaints, different season.
+2026-02-28 06:27:10.451690,tweet,none,Another controlled performance.
+2026-02-28 06:28:20.476901,tweet,none,Possession with purpose.
+2026-02-28 06:28:55.497535,tweet,none,Tempo dictated with authority.
+2026-02-28 06:31:15.541805,tweet,none,Pressure applied intelligently.
+2026-02-28 06:31:50.551811,tweet,none,Football played the right way. #ForçaBarça
+2026-02-28 06:32:25.572167,reply,RMadridTalk,Another press conference about injustice.
+2026-02-28 06:33:00.577686,tweet,none,Structured football, clear ideas.
+2026-02-28 06:33:35.586643,tweet,none,Team moving as one unit.
+2026-02-28 06:34:45.608622,tweet,none,Clean buildup, clear intent.
+2026-02-28 06:35:55.646121,tweet,none,Clear identity on the pitch.
+2026-02-28 06:36:30.666718,tweet,none,Confidence in every phase.
+2026-02-28 06:37:40.715683,tweet,none,Movement creating space.
+2026-02-28 06:38:15.740008,reply,AtletiFan1,Zero risk, zero flair.
+2026-02-28 06:39:25.766098,tweet,none,Structured football, clear ideas.
+2026-02-28 06:40:00.771227,tweet,none,Technical quality on display.
+2026-02-28 06:41:45.815081,tweet,none,Football played the right way. #ForçaBarça
+2026-02-28 06:42:55.846791,tweet,none,Technical quality on display.
+2026-02-28 06:43:30.861699,tweet,none,Clear identity on the pitch.
+2026-02-28 06:44:05.874906,tweet,none,Clean buildup, clear intent.
+2026-02-28 06:44:40.890831,tweet,none,Barça imposing their style again.
+2026-02-28 06:45:15.910057,tweet,none,Team moving as one unit.
+2026-02-28 06:45:50.932630,reply,MbappeStan,Names bigger than performances.
+2026-02-28 06:46:25.953232,tweet,none,Possession with purpose.
+2026-02-28 06:48:10.999764,tweet,none,Ball circulation setting the tone.
+2026-02-28 06:49:21.032765,tweet,none,Tempo dictated with authority.
+2026-02-28 06:51:41.094813,reply,ForcaBarca,Trust the process. Visca el Barça.
+2026-02-28 06:52:16.112073,tweet,none,Tempo dictated with authority.
+2026-02-28 06:53:26.138654,tweet,none,Discipline matched with creativity.
+2026-02-28 06:55:11.188319,tweet,none,Clear identity on the pitch.
+2026-02-28 06:55:46.202062,tweet,none,Football played the right way. #ForçaBarça
+2026-02-28 06:56:21.220354,tweet,none,Clear identity on the pitch.
+2026-02-28 06:56:56.237002,tweet,none,Another controlled performance.
+2026-02-28 06:57:31.261374,reply,AupaAtleti,Defensive obsession as identity.
+2026-02-28 06:58:06.280927,tweet,none,Pressure applied intelligently.
+2026-02-28 06:59:16.314339,tweet,none,Clean buildup, clear intent.
+2026-02-28 06:59:51.332729,tweet,none,Playing through the lines.
+2026-02-28 07:00:26.344461,tweet,none,Pressure applied intelligently.
+2026-02-28 07:01:01.357841,tweet,none,Technical quality on display.
+2026-02-28 07:01:36.378597,tweet,none,Ball circulation setting the tone.
+2026-02-28 07:03:56.431094,tweet,none,Control from the first whistle.
+2026-02-28 07:04:31.453059,reply,ForcaBarca,Built on footballing principles.
+2026-02-28 07:05:06.464192,tweet,none,Control from the first whistle.
+2026-02-28 07:06:16.493720,tweet,none,Possession with purpose.
+2026-02-28 07:10:21.598624,reply,CityFan1,Talent assembled, ethics missing.
+2026-02-28 07:10:56.619291,tweet,none,Ball circulation setting the tone.
+2026-02-28 07:12:06.650138,tweet,none,Football played the right way. #ForçaBarça
+2026-02-28 07:12:41.668502,tweet,none,Playing through the lines.
+2026-02-28 07:13:51.694660,tweet,none,Discipline matched with creativity.
+2026-02-28 07:14:26.721578,tweet,none,Confidence in every phase.
+2026-02-28 07:16:46.753799,reply,FamousBarcaPlayer,Barça impose their rhythm.
+2026-02-28 07:17:21.761528,tweet,none,Possession with purpose.
+2026-02-28 07:19:06.783961,tweet,none,Possession with purpose.
+2026-02-28 07:20:16.805665,tweet,none,Intent visible from kickoff.
+2026-02-28 07:21:26.821739,tweet,none,Composed performance overall.
+2026-02-28 07:22:36.833640,tweet,none,Confidence in every phase.
+2026-02-28 07:23:11.841700,tweet,none,Structured football, clear ideas.
+2026-02-28 07:23:46.854162,reply,PepBallX,Records shadowed by allegations.
+2026-02-28 07:24:56.899208,tweet,none,Possession with purpose.
+2026-02-28 07:26:06.917790,tweet,none,Confidence in every phase.
+2026-02-28 07:27:51.935718,tweet,none,Composed performance overall.
+2026-02-28 07:28:26.944224,tweet,none,Composed performance overall.
+2026-02-28 07:29:01.952482,reply,FamousBarcaPlayer,Trust in the system.
+2026-02-28 07:30:11.980831,tweet,none,Tempo dictated with authority.
+2026-02-28 07:31:57.006320,tweet,none,Barça imposing their style again.
+2026-02-28 07:33:42.030845,tweet,none,Another controlled performance.
+2026-02-28 07:35:27.070403,reply,PSGFan1,Galácticos without tactics.
+2026-02-28 07:37:47.104757,tweet,none,Tempo dictated with authority.
+2026-02-28 07:42:27.170613,tweet,none,Possession with purpose.
+2026-02-28 07:43:02.186705,reply,BronxTalk,Spending masks deeper issues.
+2026-02-28 07:47:07.290985,tweet,none,Barça imposing their style again.
+2026-02-28 07:49:27.356091,tweet,none,Game shaped through control.
+2026-02-28 07:50:02.375420,reply,ForcaBarca,Youth and quality combined.
+2026-02-28 07:50:37.394359,tweet,none,Discipline matched with creativity.
+2026-02-28 07:53:32.465371,tweet,none,Composed performance overall.
+2026-02-28 07:54:42.488578,tweet,none,Pressure applied intelligently.
+2026-02-28 07:55:52.523255,tweet,none,Movement creating space.
+2026-02-28 07:56:27.549408,tweet,none,Technical quality on display.
+2026-02-28 07:57:02.564977,reply,YankeesFan1,Luxury roster, average output.
+2026-02-28 07:58:12.597682,tweet,none,Playing through the lines.
+2026-02-28 08:00:32.656936,tweet,none,Confidence in every phase.
+2026-02-28 08:01:07.665908,tweet,none,Playing through the lines.
+2026-02-28 08:01:42.693206,tweet,none,Technical quality on display.
+2026-02-28 08:02:17.705332,tweet,none,Pressure applied intelligently.
+2026-02-28 08:02:52.717713,tweet,none,Movement creating space.
+2026-02-28 08:03:27.731149,tweet,none,Pressure applied intelligently.
+2026-02-28 08:04:02.750780,tweet,none,Control from the first whistle.
+2026-02-28 08:04:37.772324,reply,PSGFan1,No structure, just spotlight.
+2026-02-28 08:06:57.814117,tweet,none,Discipline matched with creativity.
+2026-02-28 08:08:07.856041,tweet,none,Technical quality on display.
+2026-02-28 08:09:17.887251,tweet,none,Clean buildup, clear intent.
+2026-02-28 08:10:27.915382,tweet,none,Composed performance overall.
+2026-02-28 08:11:02.928265,tweet,none,Composed performance overall.
+2026-02-28 08:12:12.947221,tweet,none,Discipline matched with creativity.
+2026-02-28 08:12:47.965218,reply,MbappeStan,Individual talent, collective chaos.
+2026-02-28 08:17:28.076200,tweet,none,Tempo dictated with authority.
+2026-02-28 08:18:03.082073,tweet,none,Playing through the lines.
+2026-02-28 08:19:48.120805,reply,BarcaFan1,Calm execution throughout.
+2026-02-28 08:20:23.130427,tweet,none,Clear identity on the pitch.
+2026-02-28 08:20:58.150908,tweet,none,Football played the right way. #ForçaBarça
+2026-02-28 08:24:28.235337,tweet,none,Movement creating space.
+2026-02-28 08:25:38.265010,tweet,none,Tempo dictated with authority.
+2026-02-28 08:26:13.276382,tweet,none,Another controlled performance.
+2026-02-28 08:26:48.296203,tweet,none,Barça imposing their style again.
+2026-02-28 08:27:23.315085,reply,PSGFan1,Talent wasted year after year.
+2026-02-28 08:27:58.344027,tweet,none,Possession with purpose.
+2026-02-28 08:28:33.367169,tweet,none,Game shaped through control.
+2026-02-28 08:29:43.405647,tweet,none,Team moving as one unit.
+2026-02-28 08:32:03.470714,tweet,none,Possession with purpose.
+2026-02-28 08:33:13.514432,tweet,none,Another controlled performance.
+2026-02-28 08:33:48.535821,tweet,none,Movement creating space.
+2026-02-28 08:34:23.551495,reply,FamousBarcaPlayer,Football played with intelligence.
+2026-02-28 08:35:33.576171,tweet,none,Pressure applied intelligently.
+2026-02-28 08:36:08.598308,tweet,none,Possession with purpose.
+2026-02-28 08:39:03.677273,tweet,none,Possession with purpose.
+2026-02-28 08:40:48.716375,reply,CityFan1,Court cases stacked higher than medals.
+2026-02-28 08:41:58.751758,tweet,none,Confidence in every phase.
+2026-02-28 08:43:08.779633,tweet,none,Confidence in every phase.
+2026-02-28 08:44:18.818726,tweet,none,Confidence in every phase.
+2026-02-28 08:45:28.836489,tweet,none,Team moving as one unit.
+2026-02-28 08:46:03.851356,tweet,none,Movement creating space.
+2026-02-28 08:46:38.862389,tweet,none,Barça imposing their style again.
+2026-02-28 08:47:13.868606,tweet,none,Ball circulation setting the tone.
+2026-02-28 08:47:48.880793,tweet,none,Another controlled performance.
+2026-02-28 08:48:58.895995,tweet,none,Structured football, clear ideas.
+2026-02-28 08:49:33.908347,reply,AtletiFan1,Football reduced to fouls and time-wasting.
+2026-02-28 08:50:08.913558,tweet,none,Clean buildup, clear intent.
+2026-02-28 08:50:43.924209,tweet,none,Possession with purpose.
+2026-02-28 08:52:28.950676,tweet,none,Clear identity on the pitch.
+2026-02-28 08:53:38.964452,tweet,none,Pressure applied intelligently.
+2026-02-28 08:55:58.996165,tweet,none,Clear identity on the pitch.
+2026-02-28 08:56:34.017256,reply,CuleTalk,Playing the right way matters.
+2026-02-28 08:57:09.030806,tweet,none,Structured football, clear ideas.
+2026-02-28 08:58:54.077346,tweet,none,Structured football, clear ideas.
+2026-02-28 08:59:29.098043,tweet,none,Team moving as one unit.
+2026-02-28 09:00:04.110325,tweet,none,Technical quality on display.
+2026-02-28 09:00:39.124517,tweet,none,Intent visible from kickoff.
+2026-02-28 09:01:14.136961,tweet,none,Ball circulation setting the tone.
+2026-02-28 09:02:24.177593,tweet,none,Control from the first whistle.
+2026-02-28 09:02:59.183040,reply,YankeesFan1,Another season of disappointment.
+2026-02-28 09:03:34.195487,tweet,none,Pressure applied intelligently.
+2026-02-28 09:04:44.228306,tweet,none,Clean buildup, clear intent.
+2026-02-28 09:05:19.239497,tweet,none,Barça imposing their style again.
+2026-02-28 09:07:04.274521,tweet,none,Ball circulation setting the tone.
+2026-02-28 09:07:39.290378,tweet,none,Technical quality on display.
+2026-02-28 09:08:14.301004,reply,PSGFan1,Football reduced to branding.
+2026-02-28 09:09:24.314210,tweet,none,Discipline matched with creativity.
+2026-02-28 09:11:09.361911,tweet,none,Pressure applied intelligently.
+2026-02-28 09:13:29.431497,tweet,none,Tempo dictated with authority.
+2026-02-28 09:14:04.451195,reply,ForcaBarca,Football played with intelligence.
+2026-02-28 09:14:39.463606,tweet,none,Movement creating space.
+2026-02-28 09:15:14.488129,tweet,none,Technical quality on display.
+2026-02-28 09:16:59.550197,tweet,none,Structured football, clear ideas.
+2026-02-28 09:18:09.588585,tweet,none,Game shaped through control.
+2026-02-28 09:20:29.638823,tweet,none,Football played the right way. #ForçaBarça
+2026-02-28 09:21:04.650421,reply,HalaMadridX,Same complaints, different season.
+2026-02-28 09:22:14.679339,tweet,none,Barça imposing their style again.
+2026-02-28 09:23:24.705593,tweet,none,Team moving as one unit.
+2026-02-28 09:26:19.769304,tweet,none,Pressure applied intelligently.
+2026-02-28 09:27:29.798729,tweet,none,Structured football, clear ideas.
+2026-02-28 09:28:04.809924,tweet,none,Tempo dictated with authority.
+2026-02-28 09:28:39.832126,reply,BronxTalk,Excuses louder than celebrations.
+2026-02-28 09:29:14.841684,tweet,none,Ball circulation setting the tone.
+2026-02-28 09:30:59.898939,tweet,none,Game shaped through control.
+2026-02-28 09:31:34.917656,tweet,none,Football played the right way. #ForçaBarça
+2026-02-28 09:32:09.932513,tweet,none,Tempo dictated with authority.
+2026-02-28 09:34:29.995544,tweet,none,Ball circulation setting the tone.
+2026-02-28 09:35:05.010700,reply,CuleTalk,Barça control the game. Always.
+2026-02-28 09:37:25.080017,tweet,none,Ball circulation setting the tone.
+2026-02-28 09:38:00.095849,tweet,none,Clean buildup, clear intent.
+2026-02-28 09:41:30.194413,tweet,none,Playing through the lines.
+2026-02-28 09:42:05.209155,tweet,none,Another controlled performance.
+2026-02-28 09:42:40.215183,reply,PSGFan1,Money buys stars, not cohesion.
+2026-02-28 09:43:15.235771,tweet,none,Composed performance overall.
+2026-02-28 09:43:50.250441,tweet,none,Composed performance overall.
+2026-02-28 09:46:45.339956,tweet,none,Technical quality on display.
+2026-02-28 09:47:20.362430,tweet,none,Pressure applied intelligently.
+2026-02-28 09:49:05.411945,reply,MbappeStan,Galácticos without tactics.
+2026-02-28 09:49:40.427983,tweet,none,Clean buildup, clear intent.
+2026-02-28 09:51:25.478696,tweet,none,Game shaped through control.
+2026-02-28 09:52:00.501228,tweet,none,Possession with purpose.
+2026-02-28 09:54:20.561036,tweet,none,Game shaped through control.
+2026-02-28 09:54:55.584482,tweet,none,Clear identity on the pitch.
+2026-02-28 09:56:05.607524,tweet,none,Ball circulation setting the tone.
+2026-02-28 09:56:40.628065,tweet,none,Pressure applied intelligently.
+2026-02-28 09:57:15.642241,reply,FamousBarcaPlayer,Barça impose their rhythm.
+2026-02-28 09:57:50.647068,tweet,none,Playing through the lines.
+2026-02-28 09:59:35.695672,tweet,none,Structured football, clear ideas.
+2026-02-28 10:01:20.751654,tweet,none,Playing through the lines.
+2026-02-28 10:02:30.788800,tweet,none,Tempo dictated with authority.
+2026-02-28 10:03:05.809861,tweet,none,Intent visible from kickoff.
+2026-02-28 10:05:25.869407,reply,YankeesFan1,Spending big, delivering little.
+2026-02-28 10:06:35.899061,tweet,none,Structured football, clear ideas.
+2026-02-28 10:09:30.995343,tweet,none,Game shaped through control.
+2026-02-28 10:10:06.013103,tweet,none,Confidence in every phase.
+2026-02-28 10:11:16.036598,reply,AtletiFan1,Fear-based football on display.
+2026-02-28 10:12:26.064453,tweet,none,Pressure applied intelligently.
+2026-02-28 10:14:11.110255,tweet,none,Composed performance overall.
+2026-02-28 10:14:46.117877,tweet,none,Possession with purpose.
+2026-02-28 10:15:21.139886,tweet,none,Discipline matched with creativity.
+2026-02-28 10:15:56.157940,tweet,none,Discipline matched with creativity.
+2026-02-28 10:16:31.173354,tweet,none,Composed performance overall.
+2026-02-28 10:17:06.188259,tweet,none,Clear identity on the pitch.
+2026-02-28 10:18:16.209906,reply,CityFan1,Success without transparency.
+2026-02-28 10:18:51.223274,tweet,none,Game shaped through control.
+2026-02-28 10:19:26.229355,tweet,none,Discipline matched with creativity.
+2026-02-28 10:20:36.247320,tweet,none,Football played the right way. #ForçaBarça
+2026-02-28 10:21:11.257037,tweet,none,Intent visible from kickoff.
+2026-02-28 10:23:31.326799,tweet,none,Pressure applied intelligently.
+2026-02-28 10:25:16.396269,reply,CuleTalk,Football played with intelligence.
+2026-02-28 10:26:26.424095,tweet,none,Composed performance overall.
+2026-02-28 10:28:46.494050,tweet,none,Another controlled performance.
+2026-02-28 10:29:21.514031,tweet,none,Pressure applied intelligently.
+2026-02-28 10:30:31.548181,tweet,none,Structured football, clear ideas.
+2026-02-28 10:31:41.573682,reply,CuleTalk,Trust in the system.
+2026-02-28 10:32:16.589745,tweet,none,Ball circulation setting the tone.
+2026-02-28 10:35:11.666472,tweet,none,Intent visible from kickoff.
+2026-02-28 10:37:31.727107,tweet,none,Intent visible from kickoff.
+2026-02-28 10:38:06.747635,reply,ForcaBarca,Style before shortcuts.
+2026-02-28 10:38:41.759736,tweet,none,Clean buildup, clear intent.
+2026-02-28 10:39:16.786112,tweet,none,Barça imposing their style again.
+2026-02-28 10:39:51.796849,tweet,none,Control from the first whistle.
+2026-02-28 10:41:01.823074,tweet,none,Playing through the lines.
+2026-02-28 10:41:36.834054,tweet,none,Movement creating space.
+2026-02-28 10:43:21.878974,tweet,none,Pressure applied intelligently.
+2026-02-28 10:44:31.922126,tweet,none,Composed performance overall.
+2026-02-28 10:45:06.933517,reply,CityFan1,Dominance funded, not earned.
+2026-02-28 10:47:26.991716,tweet,none,Barça imposing their style again.
+2026-02-28 10:48:02.004559,tweet,none,Barça imposing their style again.
+2026-02-28 10:49:12.029678,tweet,none,Confidence in every phase.
+2026-02-28 10:49:47.046834,tweet,none,Clear identity on the pitch.
+2026-02-28 10:50:22.063949,tweet,none,Game shaped through control.
+2026-02-28 10:50:57.082474,tweet,none,Game shaped through control.
+2026-02-28 10:52:07.121550,tweet,none,Another controlled performance.
+2026-02-28 10:52:42.141198,reply,BronxTalk,Fans promised more than results.
+2026-02-28 10:53:52.167226,tweet,none,Structured football, clear ideas.
+2026-02-28 10:54:27.189803,tweet,none,Football played the right way. #ForçaBarça
+2026-02-28 10:55:37.210779,tweet,none,Movement creating space.
+2026-02-28 10:57:22.259806,tweet,none,Control from the first whistle.
+2026-02-28 10:57:57.275180,reply,MadridFan1,Blame everyone except yourselves.
+2026-02-28 10:58:32.295857,tweet,none,Team moving as one unit.
+2026-02-28 11:00:17.339826,tweet,none,Discipline matched with creativity.
+2026-02-28 11:01:27.364339,tweet,none,Team moving as one unit.
+2026-02-28 11:02:02.376797,tweet,none,Ball circulation setting the tone.
+2026-02-28 11:02:37.381620,tweet,none,Another controlled performance.
+2026-02-28 11:03:12.400263,tweet,none,Playing through the lines.
+2026-02-28 11:03:47.418878,tweet,none,Clear identity on the pitch.
+2026-02-28 11:04:57.454745,reply,PSGFan1,Names bigger than performances.
+2026-02-28 11:07:17.503217,tweet,none,Confidence in every phase.
+2026-02-28 11:09:37.539203,tweet,none,Composed performance overall.
+2026-02-28 11:10:47.563430,tweet,none,Confidence in every phase.
+2026-02-28 11:11:22.584226,tweet,none,Structured football, clear ideas.
+2026-02-28 11:11:57.602243,tweet,none,Pressure applied intelligently.
+2026-02-28 11:12:32.615730,reply,BronxTalk,Big market, small answers.
+2026-02-28 11:13:07.630982,tweet,none,Team moving as one unit.
+2026-02-28 11:14:17.663382,tweet,none,Confidence in every phase.
+2026-02-28 11:15:27.689545,tweet,none,Discipline matched with creativity.
+2026-02-28 11:17:12.737745,tweet,none,Technical quality on display.
+2026-02-28 11:18:57.771072,tweet,none,Movement creating space.
+2026-02-28 11:19:32.786565,reply,HalaMadridX,Standards drop, excuses rise.
+2026-02-28 11:20:07.807631,tweet,none,Confidence in every phase.
+2026-02-28 11:20:42.823822,tweet,none,Technical quality on display.
+2026-02-28 11:21:52.857836,tweet,none,Tempo dictated with authority.
+2026-02-28 11:24:12.890604,tweet,none,Barça imposing their style again.
+2026-02-28 11:25:22.909577,reply,PepBallX,Financial creativity on display.
+2026-02-28 11:26:32.937349,tweet,none,Clean buildup, clear intent.
+2026-02-28 11:27:07.956647,tweet,none,Game shaped through control.
+2026-02-28 11:27:42.968236,tweet,none,Team moving as one unit.
+2026-02-28 11:28:52.990594,tweet,none,Football played the right way. #ForçaBarça
+2026-02-28 11:30:03.021801,tweet,none,Possession with purpose.
+2026-02-28 11:30:38.030005,tweet,none,Movement creating space.
+2026-02-28 11:31:13.040862,tweet,none,Composed performance overall.
+2026-02-28 11:31:48.058835,tweet,none,Ball circulation setting the tone.
+2026-02-28 11:32:23.063378,tweet,none,Technical quality on display.
+2026-02-28 11:33:33.088927,reply,CityFan1,Spending your way to success.
+2026-02-28 11:35:18.140827,tweet,none,Team moving as one unit.
+2026-02-28 11:38:13.204559,tweet,none,Game shaped through control.
+2026-02-28 11:39:23.239387,tweet,none,Clean buildup, clear intent.
+2026-02-28 11:39:58.256194,tweet,none,Confidence in every phase.
+2026-02-28 11:40:33.278106,reply,BarcaFan1,Identity visible every match.
+2026-02-28 11:41:43.316084,tweet,none,Ball circulation setting the tone.
+2026-02-28 11:42:18.337116,tweet,none,Clean buildup, clear intent.
+2026-02-28 11:45:13.425416,tweet,none,Composed performance overall.
+2026-02-28 11:46:23.455219,reply,BronxTalk,Payroll inflated, trophies absent.
+2026-02-28 11:46:58.477330,tweet,none,Intent visible from kickoff.
+2026-02-28 11:48:08.510579,tweet,none,Confidence in every phase.
+2026-02-28 11:50:28.578969,tweet,none,Game shaped through control.
+2026-02-28 11:52:48.640133,reply,BronxTalk,Buying stars, missing cohesion.
+2026-02-28 11:53:23.658408,tweet,none,Clear identity on the pitch.
+2026-02-28 11:55:08.715825,tweet,none,Clean buildup, clear intent.
+2026-02-28 11:59:13.826792,reply,PepBallX,Dominance funded, not earned.
+2026-02-28 12:00:58.868131,tweet,none,Confidence in every phase.
+2026-02-28 12:01:33.889582,tweet,none,Football played the right way. #ForçaBarça
+2026-02-28 12:03:18.943923,tweet,none,Control from the first whistle.
+2026-02-28 12:03:53.957157,tweet,none,Intent visible from kickoff.
+2026-02-28 12:04:28.974080,reply,CityFan1,Football run like a corporation.
+2026-02-28 12:05:03.987204,tweet,none,Discipline matched with creativity.
+2026-02-28 12:08:34.092715,tweet,none,Intent visible from kickoff.
+2026-02-28 12:10:19.139945,tweet,none,Movement creating space.
+2026-02-28 12:10:54.162226,reply,ForcaBarca,Patience brings results.
+2026-02-28 12:12:04.192162,tweet,none,Movement creating space.
+2026-02-28 12:13:14.217523,tweet,none,Another controlled performance.
+2026-02-28 12:14:59.251749,tweet,none,Composed performance overall.
+2026-02-28 12:15:34.257127,tweet,none,Playing through the lines.
+2026-02-28 12:17:54.298402,tweet,none,Playing through the lines.
+2026-02-28 12:18:29.311565,reply,MbappeStan,No plan beyond talent.
+2026-02-28 12:20:14.352207,tweet,none,Composed performance overall.
+2026-02-28 12:21:24.370237,tweet,none,Movement creating space.
+2026-02-28 12:21:59.378621,tweet,none,Discipline matched with creativity.
+2026-02-28 12:23:09.394452,tweet,none,Team moving as one unit.
+2026-02-28 12:25:29.425661,tweet,none,Barça imposing their style again.
+2026-02-28 12:26:04.434510,tweet,none,Technical quality on display.
+2026-02-28 12:26:39.442711,tweet,none,Football played the right way. #ForçaBarça
+2026-02-28 12:27:14.451235,tweet,none,Composed performance overall.
+2026-02-28 12:27:49.459567,reply,YankeesFan1,Payroll FC still crying?
+2026-02-28 12:29:34.488313,tweet,none,Barça imposing their style again.
+2026-02-28 12:30:09.507840,tweet,none,Possession with purpose.
+2026-02-28 12:31:54.535337,tweet,none,Technical quality on display.
+2026-02-28 12:32:29.545286,tweet,none,Movement creating space.
+2026-02-28 12:33:04.557015,tweet,none,Clear identity on the pitch.

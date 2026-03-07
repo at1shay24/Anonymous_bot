@@ -1,20 +1,16 @@
 import time
 import random
 import os
-from datetime import datetime, timedelta
 import importlib
-
+from datetime import datetime
 from bot_config import config, targets
 from tweet_templates import ragebait, supportive, general
 from stupidity import is_barca_related, is_stupid
 from incoming_tweets import simulated_tweet_stream
 from racism_filter import is_racist
 
-SESSION_START = datetime.now()
-SESSION_END = SESSION_START + timedelta(hours=1)
-
+# Log file
 LOG_FILE = f"bot_log_{datetime.now().strftime('%Y%m%d')}.txt"
-
 with open(LOG_FILE, "w", encoding="utf-8") as f:
     f.write("timestamp,action,target,content\n")
 
@@ -41,7 +37,6 @@ stupid_recent = []
 
 def should_reply_to_stupidity(now: float) -> bool:
     global last_stupid_reply, stupid_recent
-
     stupid_recent = [t for t in stupid_recent if now - t < 600]
     stupid_recent.append(now)
 
@@ -102,7 +97,7 @@ def main_loop():
     tweet_stream = simulated_tweet_stream(delay=5)
     global players
 
-    while datetime.now() < SESSION_END:
+    while True:  
         now = time.time()
 
         if now - last_reload > 300:
@@ -150,9 +145,7 @@ def main_loop():
             print(datetime.now(), "reply →", target, content)
             log_action("reply", target, content)
 
-        time.sleep(30)
-
-    print("SESSION ENDED:", SESSION_ID)
+        time.sleep(30)  
 
 if __name__ == "__main__":
     main_loop()

@@ -1,11 +1,68 @@
+<neutral> Playing the right way matters.
+<neutral> Game shaped through control.
 <supportive> Football played the right way. #ForçaBarça
-<ragebait> DNA of the club: complain first
+<neutral> Intent visible from kickoff.
+<neutral> Glory with fine print attached.
+<neutral> Ball circulation setting the tone.
+<neutral> Charges louder than the trophies.
+<neutral> Another controlled performance.
+<supportive> Team moving as one unit.
+<neutral> Composed performance overall.
+<neutral> Football played with intelligence.
+<neutral> Structured football
+<ragebait> Same complaints
+<neutral> Possession with purpose.
+<neutral> Tempo dictated with authority.
+<neutral> Pressure applied intelligently.
+<neutral> Another press conference about injustice.
+<neutral> Clean buildup
+<neutral> Clear identity on the pitch.
+<supportive> Confidence in every phase.
+<neutral> Movement creating space.
+<neutral> Zero risk
+<neutral> Technical quality on display.
 <neutral> Barça imposing their style again.
-<ragebait> Refs working overtime again?
-<ragebait> Parking the bus isn’t football.
-<supportive> Barça control the game. Always.
-<neutral> 115 reasons and counting.
+<neutral> Names bigger than performances.
 <supportive> Trust the process. Visca el Barça.
+<neutral> Discipline matched with creativity.
+<neutral> Defensive obsession as identity.
+<neutral> Playing through the lines.
+<neutral> Control from the first whistle.
+<neutral> Built on footballing principles.
+<neutral> Talent assembled
+<neutral> Barça impose their rhythm.
+<neutral> Records shadowed by allegations.
+<neutral> Trust in the system.
+<ragebait> Galácticos without tactics.
+<neutral> Spending masks deeper issues.
+<neutral> Youth and quality combined.
+<neutral> Luxury roster
+<neutral> No structure
+<neutral> Individual talent
+<neutral> Calm execution throughout.
+<neutral> Talent wasted year after year.
+<neutral> Court cases stacked higher than medals.
+<neutral> Football reduced to fouls and time-wasting.
+<neutral> Another season of disappointment.
+<neutral> Football reduced to branding.
+<neutral> Excuses louder than celebrations.
+<supportive> Barça control the game. Always.
+<neutral> Money buys stars
+<neutral> Spending big
+<neutral> Fear-based football on display.
+<neutral> Success without transparency.
+<neutral> Style before shortcuts.
+<neutral> Dominance funded
+<neutral> Fans promised more than results.
+<neutral> Blame everyone except yourselves.
+<neutral> Big market
+<neutral> Standards drop
+<neutral> Financial creativity on display.
+<neutral> Spending your way to success.
+<neutral> Identity visible every match.
+<ragebait> Payroll inflated
+<neutral> Buying stars
+<neutral> Football run like a corporation.
+<neutral> Patience brings results.
+<neutral> No plan beyond talent.
 <ragebait> Payroll FC still crying?
-<ragebait> Oil money can’t buy history.
-<neutral> All that money
