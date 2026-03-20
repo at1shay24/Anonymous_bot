@@ -66,3 +66,37 @@
 <neutral> Patience brings results.
 <neutral> No plan beyond talent.
 <ragebait> Payroll FC still crying?
+<neutral> Money can’t fix everything.
+<neutral> Expectations high
+<ragebait> DNA of the club: complain first
+<neutral> Content with spoiling the game.
+<neutral> Champions League dreams
+<neutral> Titles followed by investigations.
+<neutral> Control defines this team.
+<ragebait> Oil money can’t buy history.
+<neutral> Another game killed by negativity.
+<neutral> Calm
+<neutral> Tradition upheld: excuses before analysis.
+<neutral> Defending with eleven men behind the ball.
+<neutral> When football fails
+<neutral> Marketing project before football club.
+<neutral> Same collapse every season.
+<neutral> Noise without substance.
+<neutral> Same narrative every year.
+<neutral> Crowd watches
+<neutral> Another match
+<neutral> Pressure without payoff.
+<neutral> Success built on unanswered questions.
+<neutral> More lawyers than academy graduates.
+<supportive> Composure under pressure.
+<neutral> Budget unmatched
+<neutral> Money talks louder than merit.
+<neutral> Legacy still under review.
+<neutral> Numbers that never add up.
+<neutral> Tactical caution bordering on cowardice.
+<neutral> Style sacrificed for celebrity.
+<ragebait> Complaints FC strikes again.
+<neutral> 115 reasons and counting.
+<neutral> Destroy first
+<supportive> Confidence grounded in style.
+<neutral> Eleven individuals

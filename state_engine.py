@@ -20,6 +20,20 @@ def log_action(action, target, content):
     with open(LOG_FILE, "a", encoding="utf-8") as f:
         f.write(f"{datetime.now()},{action},{target},{content}\n")
 
+sent_replies = {}
+
+if os.path.exists(LOG_FILE):
+    with open(LOG_FILE, "r", encoding="utf-8") as f:
+        next(f)
+        for row in f:
+            parts = row.strip().split(",", 3)
+            if len(parts) == 4 and parts[1] == "reply":
+                target = parts[2]
+                content = parts[3]
+                if target not in sent_replies:
+                    sent_replies[target] = set()
+                sent_replies[target].add(content)
+
 REPLY_MIN_DELAY = 5 * 60
 REPLY_MAX_DELAY = 8 * 60
 last_reply_time = 0
@@ -55,15 +69,15 @@ def should_reply_to_stupidity(now: float) -> bool:
     last_stupid_reply = now
     return True
 
-sent_replies = {}
-
 def pick_ragebait(pool, target):
     if target not in sent_replies:
         sent_replies[target] = set()
 
     available = [t for t in ragebait[pool] if t not in sent_replies[target]]
     if not available:
-        return random.choice(supportive)
+        available = [t for t in supportive if t not in sent_replies[target]]
+        if not available:
+            return random.choice(supportive)
 
     template = random.choice(available)
     sent_replies[target].add(template)
@@ -99,7 +113,7 @@ def main_loop():
     tweet_stream = simulated_tweet_stream(delay=5)
     global players
 
-    while True:  # run indefinitely
+    while True: 
         now = time.time()
 
         if now - last_reload > 300:
