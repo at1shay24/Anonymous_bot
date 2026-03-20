@@ -1,81 +1,73 @@
-
 import csv
-import string
-import os
-
-INPUT_FILE = "bot_log.txt"          
-OUTPUT_FILE = "train.txt"        
-
-RAGE_KEYWORDS = [
-    "crying", "refs", "complain", "payroll", "oil money",
-    "galácticos", "low block", "parking the bus",
-    "superstars", "zero chemistry", "records shadowed", "luxury roster",
-    "no structure", "individual talent", "money buys stars",
-    "spending big", "style before shortcuts", "payroll inflated",
-    "payroll fc still crying", "same complaints"
-]
-
-SUPPORTIVE_KEYWORDS = [
-    "trust the process", "visca", "control the game",
-    "football played the right way", "composure",
-    "confidence", "team moving", "football played with intelligence",
-    "barça control the game", "team moving as one unit"
-]
-
-def normalize(text: str) -> str:
-    """Lowercase and remove punctuation for keyword matching"""
-    text = text.lower()
-    text = text.translate(str.maketrans('', '', string.punctuation))
-    return text
-
+import random
+INPUT_FILE = "bot_log.txt"
+OUTPUT_FILE = "train.txt"
+NEUTRAL_KEEP_PROB = 0.4
 def detect_style(text: str) -> str:
-    """Classify text as <ragebait>, <supportive>, or <neutral>"""
-    norm_text = normalize(text)
-    for word in RAGE_KEYWORDS:
-        if word in norm_text:
+    t = text.lower()
+    rage_patterns = [
+        "crying", "refs", "complain", "payroll", "oil money",
+        "galácticos", "low block", "parking the bus",
+        "no structure", "individual talent", "money buys",
+        "spending big", "complaints fc", "dna of the club",
+        "excuses", "charges", "allegations", "115",
+        "same complaints", "zero chemistry", "noise without substance",
+        "legacy still under review", "numbers don’t add up",
+        "numbers dont add up", "blame", "bottlers"
+    ]
+    supportive_patterns = [
+        "visca", "trust the process", "control the game",
+        "confidence", "composure", "team moving",
+        "playing the right way", "calm", "identity",
+        "progress", "collective", "dominance"
+    ]
+    for p in rage_patterns:
+        if p in t:
             return "<ragebait>"
-    for word in SUPPORTIVE_KEYWORDS:
-        if word in norm_text:
+    for p in supportive_patterns:
+        if p in t:
             return "<supportive>"
+    words = t.split()
+    if len(words) <= 4 and any(w in t for w in ["no", "same", "just", "only"]):
+        return "<ragebait>"
     return "<neutral>"
-
-def load_existing_lines():
-    """Load previous train.txt lines to prevent duplicates"""
-    if not os.path.exists(OUTPUT_FILE):
-        return set()
-    with open(OUTPUT_FILE, "r", encoding="utf-8") as f:
-        return set(line.strip() for line in f)
-
+def is_valid(text: str) -> bool:
+    words = text.split()
+    if len(words) < 3:
+        return False
+    if text.endswith(("the", "a", "an", "and", "or")):
+        return False
+    return True
 def main():
-    existing_lines = load_existing_lines()
-    new_lines = []
-
+    texts = []
     with open(INPUT_FILE, newline="", encoding="utf-8") as f:
         reader = csv.reader(f)
-        next(reader)  
+        next(reader) 
         for row in reader:
             if len(row) < 4:
                 continue
-            content = row[3].strip()
+            content = ",".join(row[3:]).strip()
             if not content:
                 continue
+            if not is_valid(content):
+                continue
             style = detect_style(content)
-            line = f"{style} {content}"
-            if line not in existing_lines:
-                new_lines.append(line)
-                existing_lines.add(line)
+            if style == "<neutral>" and random.random() > NEUTRAL_KEEP_PROB:
+                continue
+            texts.append(f"{style} {content}")
+    seen = set()
+    clean_texts = []
+    for t in texts:
+        if t not in seen:
+            seen.add(t)
+            clean_texts.append(t)
 
-    if not new_lines:
-        print("No new lines to add.")
-        return
-
-    with open(OUTPUT_FILE, "a", encoding="utf-8") as f:
-        for line in new_lines:
+    with open(OUTPUT_FILE, "w", encoding="utf-8") as f:
+        for line in clean_texts:
             f.write(line + "\n")
+    print("Done ✅")
+    print(f"Total lines written: {len(clean_texts)}")
 
-    print(f"Done ✅")
-    print(f"Total new lines added: {len(new_lines)}")
-    print(f"Total lines in train.txt: {len(existing_lines)}")
 
 if __name__ == "__main__":
     main()
